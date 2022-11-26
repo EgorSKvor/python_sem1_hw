@@ -1,0 +1,6 @@
+numA_X = abs(int(input('Enter X of first num ')))
+numA_Y = abs(int(input('Enter Y of first num ')))
+numB_X = abs(int(input('Enter X of second num ')))
+numB_Y = abs(int(input('Enter Y of second num ')))
+distance = (((numB_X - numA_X) ** 2 + (numB_Y - numA_Y)**2)**0.5)
+print(distance)
